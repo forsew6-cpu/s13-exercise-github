@@ -1,0 +1,14 @@
+# Ignore everything except the public directory
+*
+!public/
+
+# Ignore hidden files and folders (except .dockerignore itself)
+.*
+!.dockerignore
+
+# Additional ignores
+.git
+.github
+.DS_Store
+*.log
+README.md
